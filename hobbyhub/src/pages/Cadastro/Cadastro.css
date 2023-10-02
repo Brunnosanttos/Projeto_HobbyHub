@@ -41,6 +41,10 @@
     line-height: normal;
 }
 
+.left_cadastro img {
+    height: 70%;
+}
+
 .right_cadastro {
     width: 50%;
     height: 90vh;
@@ -103,7 +107,7 @@
 }
 
 .btn_cad {
-    margin-top: 6%;
+    margin-top: 3%;
     width: 25vw;
     height: 7vh;
     border-radius: 15px;

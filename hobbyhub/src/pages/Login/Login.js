@@ -1,6 +1,7 @@
 import React from 'react'; 
 import './Login.css'; 
 import logoprojeto from '../../assets/logoprojeto.png'; 
+import {Link} from "react-router-dom";
 
 const Login = () => { 
   return (
@@ -16,18 +17,19 @@ const Login = () => {
           <h1>Login</h1> {/* Título "Login" com classe 'h1' */}
           
           <label htmlFor="emailCpf">Email ou CPF</label> 
-          <input id="emailCpf" className='login_input' type="text" /> 
+          <input placeholder='Digite o Email ou CPF' className='login_input' type="text" /> 
           
           <label htmlFor="senha">Senha</label> 
-          <input id="senha" className='login_input' type="password" /> 
+          <input placeholder='Digite a senha' className='login_input' type="password" /> 
           
-          <a href="" >Esqueceu a senha?</a> {/* Link "Esqueceu a senha?" */}
+          <a id='Esqueceu' href="" >Esqueceu a senha?</a> {/* Link "Esqueceu a senha?" */}
           <br></br>
           <br></br>
-          <div className='button'>
-            <button className='btn_login'>Login</button> {/* Botão de login */}
-            <br></br>
-            <button className='btn_login'>Criar nova conta</button> {/* Botão "Criar nova conta" */}
+          <div className='btn'>
+              <button>Login</button> {/* Botão de login */}
+            <Link to="/Cadastro">
+              <button>Criar nova conta</button> {/* Botão "Criar nova conta" */}
+            </Link>
           </div>
         </div>
       </div>

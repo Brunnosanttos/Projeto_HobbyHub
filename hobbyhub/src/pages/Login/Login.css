@@ -58,9 +58,11 @@
 }
 
 .card_right {
+    width: 90%;
+    height: 100%;
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
+    align-items: center;
     justify-content: center;
     margin-bottom: 30%;
 }
@@ -78,19 +80,20 @@
 
 .card_right label {
     color: #ffffff;
+    margin: 0;
+    display: flex;
+    width: 80%;
     font-size: 2vh;
     font-style: normal;
-    font-weight: 400;
     line-height: normal;
-    margin-bottom: 3%;
     font-family: 'Inter', sans-serif;
     padding: 3%;
     cursor: auto;
 }
 
-.login_input {
-    width: 140%;
-    height: 35px;
+.card_right input {
+    width: 80%;
+    height: 5vh;
     flex-shrink: 0;
     border-radius: 15px;
     border: none;
@@ -109,30 +112,33 @@
     background-color: #dbdbdb;
 }
 
-.card_right a {
+.card_right #Esqueceu {
     color: white;
     display: flex;
+    width: 90%;
     justify-content: start;
+    align-items: start;
     font-family: 'Asap Condensed', sans-serif;
     font-family: 'Inter', sans-serif;
     margin-top: 3%;
 }
 
-.button {
+.btn {
     display: flex;
     flex-shrink: 0;
     justify-content: center;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
+    gap: 3%;
+    width: 100%;
 }
 
-.btn_login {
+.btn button {
+    width: 80%;
     margin-top: 3%;
     background-color: #8A01FF;
     border: none;
     border-radius: 10px;
-    width: 80%;
-    max-width: 280%;
     height: 45px;
     justify-content: center;
     color: #FFF;
@@ -140,7 +146,20 @@
     font-size: 2.5vh;
 }
 
-.btn_login:hover {
+.btn a button {
+    width: 80%;
+    margin-top: 3%;
+    background-color: #8A01FF;
+    border: none;
+    border-radius: 10px;
+    height: 45px;
+    justify-content: center;
+    color: #FFF;
+    font-family: Lilita One;
+    font-size: 2.5vh;
+}
+
+.btn button:hover {
     background-color: #6900c5;
     transition: 0.5s;
     cursor: pointer;

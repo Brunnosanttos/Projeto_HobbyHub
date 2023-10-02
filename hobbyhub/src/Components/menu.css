@@ -5,8 +5,8 @@
 
 .sidebar {
   position: fixed;
-  top: 10px;
-  left: 10px;
+  top: 3%;
+  left: 1.5%;
   width: 20%;
   padding: 0;
   margin: 0;
@@ -111,5 +111,15 @@
 }
 
 .Contatos a:hover {
+  color: #8484ff;
+}
+
+.Home a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  display: flex;
+}
+
+.Home a:hover {
   color: #8484ff;
 }
