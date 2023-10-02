@@ -1,5 +1,6 @@
 import React from 'react'
 import './footer.css'
+import {Link} from "react-router-dom"
 
 const Footer = () => {
   return (
@@ -17,9 +18,9 @@ const Footer = () => {
           </svg>
         </div>
         <ul>
-          <li>Home</li> {/*fazer um button e colocar o link*/}
-          <li>Contato</li>
-          <li>Sobre</li>
+          <li><Link to="/Home"><button>Home</button></Link></li>
+          <li><Link to="/Contatos"><button>Contatos</button></Link></li>
+          <li><Link to="/Sobre"><button>Sobre</button></Link></li>
         </ul>
         <p>&copy; {new Date().getFullYear()} HobbyHub</p>
       </div>

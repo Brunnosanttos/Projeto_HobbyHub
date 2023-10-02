@@ -30,12 +30,15 @@
     align-items: end;
     background: transparent;
     border: none;
+
+
+    
 }
 
 #btn_login button p {
     display: flex;
     width: 100%;
-    color: #6700BF;
+    color: #8484ff;
     margin: 0;
     font-family: Lilita One;
     font-size: 1.1em;
