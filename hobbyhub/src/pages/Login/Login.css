@@ -10,6 +10,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    gap:40px;
 }
 
 .left_login {
@@ -29,6 +30,7 @@
     display: flex;
     flex-wrap: wrap;
     align-content: center;
+    
 }
 
 .card_left h2 {
@@ -49,7 +51,7 @@
 }
 
 .right_login {
-    max-width: 500px; 
+    max-width: 700px; 
     width: 90%; 
     height: auto; 
     color: white;
@@ -58,7 +60,7 @@
 }
 
 .card_right {
-    width: 90%;
+    width: 70%;
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -68,59 +70,65 @@
 }
 
 .card_right h1 {
-    text-align: center;
     color: #FFF;
     font-size: 6vh;
-    font-style: normal;
     font-weight: 400;
-    line-height: normal;
-    margin-bottom: 5%;
     font-family: 'Lilita One', cursive;
 }
 
-.card_right label {
-    color: #ffffff;
-    margin: 0;
+.Ipts_Container{
     display: flex;
-    width: 80%;
-    font-size: 2vh;
-    font-style: normal;
-    line-height: normal;
-    font-family: 'Inter', sans-serif;
-    padding: 3%;
-    cursor: auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+}
+.CIpts{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    width: 100px;
+}
+.IconC{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-right: 20px;
+    height: 60px;
+    background: rgb(255, 255, 255);
+    border-radius: 0px 200px 200px 0px;
+}
+.icn-ipts{
+    font-size: 20pt;
+    color: purple;
+}
+.ContainerBTNlogin{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
 }
 
-.card_right input {
-    width: 80%;
-    height: 5vh;
-    flex-shrink: 0;
-    border-radius: 15px;
-    border: none;
-    font-size: 2vh;
-    margin-left: -4%;
-    padding: 10px;
-}
-
-.login_input:hover {
-    background-color: #dbdbdb;
-    transition: 0.5s;
-}
-
-.login_input:focus {
-    outline: none;
-    background-color: #dbdbdb;
+#ln-btns{
+    width: 1px;
+    height: 55px;
+    background-color:white;
 }
 
 .card_right #Esqueceu {
     color: white;
     display: flex;
     width: 90%;
+    font-style: italic;
+    width: fit-content;
     justify-content: start;
     align-items: start;
     font-family: 'Asap Condensed', sans-serif;
     font-family: 'Inter', sans-serif;
     margin-top: 3%;
+    align-self: flex-start;
 }
 
 .btn {
@@ -131,10 +139,11 @@
     align-items: center;
     gap: 3%;
     width: 100%;
+    cursor: pointer;
 }
 
-.btn button {
-    width: 80%;
+.btn {
+    width: 200px;
     margin-top: 3%;
     background-color: #8A01FF;
     border: none;
@@ -143,7 +152,12 @@
     justify-content: center;
     color: #FFF;
     font-family: Lilita One;
-    font-size: 2.5vh;
+    font-size: 14pt;
+    transition: 0.4s;
+}
+.btn:hover{
+    width:220px;
+    height: 48px;
 }
 
 .btn a button {
@@ -163,4 +177,8 @@
     background-color: #6900c5;
     transition: 0.5s;
     cursor: pointer;
+}
+
+.LinksLogin{
+    text-decoration: none;
 }

@@ -2,7 +2,10 @@ import React from 'react';
 import './Login.css'; 
 import logoprojeto from '../../assets/logoprojeto.png'; 
 import {Link} from "react-router-dom";
+import {BsFilePerson} from "react-icons/bs";
+import {RiLockPasswordLine} from "react-icons/ri";
 
+import Inputs from "../../Components/Inputs/Inputs";
 const Login = () => { 
   return (
     <div className='main_login'> {/* Inicia um container principal com classe 'main_login' */}
@@ -16,19 +19,31 @@ const Login = () => {
         <div className='card_right'>
           <h1>Login</h1> {/* Título "Login" com classe 'h1' */}
           
-          <label htmlFor="emailCpf">Email ou CPF</label> 
-          <input placeholder='Digite o Email ou CPF' className='login_input' type="text" /> 
-          
-          <label htmlFor="senha">Senha</label> 
-          <input placeholder='Digite a senha' className='login_input' type="password" /> 
-          
+         <div className="Ipts_Container">
+          <div className="CIpts">
+            <Inputs pHolderI="E-Mail ou CPF" TypesI="text" LabelI={"USUÁRIO"}/>
+            <div className="IconC">
+              <BsFilePerson className="icn-ipts"/>
+            </div>
+          </div>
+          <div className="CIpts">
+            <Inputs pHolderI="Senha" TypesI="password" LabelI={"SENHA"}/>
+            <div className="IconC">
+              <RiLockPasswordLine className="icn-ipts"/>
+            </div>
+          </div>
+        </div>
           <a id='Esqueceu' href="" >Esqueceu a senha?</a> {/* Link "Esqueceu a senha?" */}
           <br></br>
           <br></br>
-          <div className='btn'>
-              <button>Login</button> {/* Botão de login */}
-            <Link to="/Cadastro">
-              <button>Criar nova conta</button> {/* Botão "Criar nova conta" */}
+          <div className="ContainerBTNlogin">
+            <Link className='LinksLogin' to="/home">
+              <button className='btn'>Login</button> 
+               </Link>{/* Botão de login */}
+               <div id="ln-btns"></div>
+            <Link to="/cadastro" className='LinksLogin'>
+                <button className='btn'>Criar nova conta</button>
+               {/* Botão "Criar nova conta" */}
             </Link>
           </div>
         </div>
