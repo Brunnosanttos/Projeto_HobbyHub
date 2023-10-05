@@ -53,7 +53,7 @@
     align-items: center;
     text-align: center;
 }
-/* Adicione estilos para o botão de upload */
+
 .upload-button {
     display: flex;
     width: 10vw;
@@ -67,6 +67,9 @@
     border-radius: 4px;
     transition: background-color 0.3s ease;
   }
+ label.upload-button {
+  margin: 0;
+ }
 
   .upload-button svg {
         width: 15%;
@@ -80,6 +83,7 @@
   
   #imageUpload {
     display: none;
+    background-size: cover;
   }
   
   .content_profile p.name {

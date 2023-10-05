@@ -6,6 +6,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Inicio from './pages/Inicio/Inicio';
 import Home from './pages/Home/Home';
 import Perfil from './pages/Perfil/Perfil';
+import Crie from './pages/Crie/Crie';
 
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
           <Route path="/cadastro" element={<Cadastro />} />
           <Route path="/home" element={<Home />} />
           <Route path='/perfil' element={<Perfil/>} />
+          <Route path='/crie' element={<Crie/>} />
         </Routes>
       </div>
     </Router>

@@ -1,0 +1,162 @@
+.create_main {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    
+    box-sizing: border-box;
+}
+
+.logo_create {
+    max-width: 10%;
+    margin-left: 3%;
+    margin-top: -2%;
+}
+
+.logo_create img {
+    width: 100%;
+}
+
+.tittle_page_create {
+    width: 85%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    margin-left: -8%;
+}
+
+.tittle_page_create h1 {
+    position: absolute;
+    z-index: 999;
+    color: white;
+    font-family: Lilita One;
+    font-weight: 400;
+    font-size: 2.3em;
+}
+
+.content_create {
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    position: absolute;
+    align-content: flex-start;
+}
+
+.left_content_create {
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 5%;
+}
+
+.left_content_create input[type="file"] {
+    display: flex;
+}
+  
+.upload-button {
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 7%;
+}
+
+.upload-button svg {
+    width: 5%;
+}
+ 
+.selected-image-preview {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+}
+
+.selected-image-preview img {
+    width: 25vw;
+    height: 40vh;
+    border-radius: 5%;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    background-size: cover;
+}
+
+.hobby_inf {
+    margin-top: -5%;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+}
+
+.hobby_inf #ipt {
+    border: none;
+    width: 70%;
+    height: 4vh;
+    border-radius: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-left: 2%;
+}
+
+.hobby_inf #ipt:hover {
+    background-color: #c2c2c2;
+    transition: all 0.5s ease;
+}
+
+.hobby_inf #ipt:focus {
+    outline: none;
+}
+
+.hobby_inf p {
+    color: white;
+    font-family: Lilita One;
+    font-weight: 400;
+    font-size: 15pt;
+    margin: 0;
+    margin-bottom: 3%;
+}
+
+.right_content_create {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 40%;
+    height: 70%;
+}
+
+.right_content_create input {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background-color: #ffffff;
+    border-radius: 15px;
+}
+
+.right_content_create button {
+    margin-top: 5%;
+    background-color: #C785FF;
+    border: none;
+    width: 40%;
+    height: 10%;
+    border-radius: 15px;
+    cursor: pointer;
+    font-family: Lilita One;
+    color: black;
+    font-size: 15pt;
+}
+
+.right_content_create button:hover {
+    background-color: #6900c5;
+    transition: all 0.5s ease;
+}
+
+@media screen and (max-width: 768px){
+    .create_main{
+      width: 100%;
+      flex-direction: column;
+    }
+  }
