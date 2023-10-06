@@ -3,6 +3,17 @@
   src: url("../Fonts/LilitaOne-Regular.ttf");
 }
 
+@keyframes slideDown {
+  0% {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
 .sidebar {
   position: fixed;
   top: 3%;
@@ -43,10 +54,10 @@
   background-color: rgb(206, 206, 206);
   border-radius: 20px;
 }
+
 #btn_menu_text{
   font-family: "menufont";
   color: #8484ff;
-
 }
 
 .menu_button.active #btn_menu_text{
@@ -56,70 +67,105 @@
 }
 
 .menu_ul {
-    width: 5vw;
-    height: 8vh;
-    list-style-type: none;
-    color: black;
-    margin: 0;
-    display: flex;
-    flex-direction: column;
-    align-items: start;
-    top: 50px;
-    right: 0;
-    border-radius: 4px;
+  display: flex;
+  width: 100%;
+  height: 20vh;
+  margin: 0;
+  margin-left: -15%;
+  flex-direction: column;
+  align-items: start;
+  margin-top: 10px;
+  gap: 10px;
+  list-style: none;
+  animation: slideDown 0.7s ease forwards; 
 }
-  
 
-.li {
-    margin: 10px 0;
+.menu_ul li {
+  display: flex;
+  margin-top: 3%;
+}
+
+.icon_house {
+  width: 20px;
+}
+
+.icon_adress {
+  width: 20px;
+}
+
+.icon_login {
+  width: 20px;
+  padding-right: 4px;
+}
+
+.icon_home {
+  width: 20px;
+}
+
+.icon_contact {
+  width: 20px;
+}
+
+.icon_about {
+  width: 20px;
 }
 
 .Login a {
   color: rgb(255, 255, 255);
   text-decoration: none;
-  display: flex;
 }
 
 .Login a:hover {
   color: #8484ff;
+  transition: all 0.2s ease;
 }
 
 .Cadastro a {
   color: rgb(255, 255, 255);
   text-decoration: none;
-  display: flex;
 }
 
 .Cadastro a:hover {
   color: #8484ff;
+  transition: all 0.2s ease;
 }
 
 .Inicio a {
   color: rgb(255, 255, 255);
   text-decoration: none;
-  display: flex;
 }
 
 .Inicio a:hover {
   color: #8484ff;
+  transition: all 0.2s ease;
 }
 
 .Contatos a {
   color: rgb(255, 255, 255);
   text-decoration: none;
-  display: flex;
 }
 
 .Contatos a:hover {
   color: #8484ff;
+  transition: all 0.2s ease;
 }
 
 .Home a {
   color: rgb(255, 255, 255);
   text-decoration: none;
-  display: flex;
 }
 
 .Home a:hover {
   color: #8484ff;
+  transition: all 0.2s ease;
+}
+
+.Sobre a {
+  color: white;
+  text-decoration: none;
+}
+
+.Sobre a:hover {
+  color: #8484ff;
+  transition: all 0.2s ease;
 }
