@@ -4,7 +4,6 @@
     width: 100%;
     height: 100vh;
     display: flex;
-    
     box-sizing: border-box;
 }
 
@@ -50,28 +49,37 @@
     width: 50%;
     flex-direction: column;
     align-items: flex-start;
-    margin-top: 5%;
+    margin-top: 10%;
 }
 
 .left_content_create input[type="file"] {
     display: flex;
 }
+
+label.upload_button_create {
+    display: flex;
+    margin: 0;
+    margin-bottom: -10%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
   
-.upload-button {
+.upload_button_create {
     background-color: transparent;
     color: white;
     cursor: pointer;
     width: 80%;
     display: flex;
     justify-content: center;
-    margin-bottom: 7%;
 }
 
-.upload-button svg {
+.upload_button_create svg {
     width: 5%;
 }
  
 .selected-image-preview {
+    margin-top: -10%;
     width: 80%;
     display: flex;
     justify-content: center;
@@ -86,7 +94,7 @@
 }
 
 .hobby_inf {
-    margin-top: -5%;
+    margin-top: 15%;
     width: 70%;
     display: flex;
     flex-direction: column;

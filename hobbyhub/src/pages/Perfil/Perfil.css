@@ -54,7 +54,7 @@
     text-align: center;
 }
 
-.upload-button {
+.upload_button_profile {
     display: flex;
     width: 10vw;
     height: 9vh;
@@ -67,11 +67,11 @@
     border-radius: 4px;
     transition: background-color 0.3s ease;
   }
- label.upload-button {
+ label.upload_button_profile {
   margin: 0;
  }
 
-  .upload-button svg {
+  .upload_button_profile svg {
         width: 15%;
   }
 

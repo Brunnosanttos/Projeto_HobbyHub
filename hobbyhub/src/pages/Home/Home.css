@@ -70,6 +70,12 @@
     width: 40%;
 }
 
+#btn_home {
+    display: flex;
+    text-decoration: none;
+    margin-top: 1%;
+}
+
 .btn_header button {
     display: flex;
     flex-direction: column;

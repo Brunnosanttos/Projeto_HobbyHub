@@ -7,6 +7,7 @@ import Inicio from './pages/Inicio/Inicio';
 import Home from './pages/Home/Home';
 import Perfil from './pages/Perfil/Perfil';
 import Crie from './pages/Crie/Crie';
+import Descrição from './pages/Descrição/Descrição';
 
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
           <Route path="/cadastro" element={<Cadastro />} />
           <Route path="/home" element={<Home />} />
           <Route path='/perfil' element={<Perfil/>} />
+          <Route path='/descrição' element={<Descrição/>} />
           <Route path='/crie' element={<Crie/>} />
         </Routes>
       </div>

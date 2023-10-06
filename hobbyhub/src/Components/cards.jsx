@@ -1,5 +1,6 @@
 import React from 'react'
 import './cards.css'
+import { Link } from 'react-router-dom'
 
 const cards = () => {
   return (
@@ -11,7 +12,9 @@ const cards = () => {
                 <p>data</p>
             </div>
             <div id='btn'>
-                <button>Saiba mais</button>
+              <Link to='/Descrição' className='link_btn_card'>
+                <button >Saiba mais</button>
+              </Link>
             </div>
         </div>
     </section>
