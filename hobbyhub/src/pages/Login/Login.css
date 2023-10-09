@@ -132,6 +132,10 @@
     align-self: flex-start;
 }
 
+.Link_alterarsenha {
+    width: 100%;
+}
+
 .btn {
     display: flex;
     flex-shrink: 0;

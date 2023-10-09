@@ -9,6 +9,7 @@ import Perfil from './pages/Perfil/Perfil';
 import Crie from './pages/Crie/Crie';
 import Descrição from './pages/Descrição/Descrição';
 import Sobre from './pages/Sobre/Sobre';
+import Alterarsenha from './pages/Alterarsenha/Alterarsenha';
 
 
 function App() {
@@ -25,6 +26,7 @@ function App() {
           <Route path='/descrição' element={<Descrição/>} />
           <Route path='/crie' element={<Crie/>} />
           <Route path='/sobre' element={<Sobre />} />
+          <Route path='/alterarsenha' element={<Alterarsenha/>} />
         </Routes>
       </div>
     </Router>

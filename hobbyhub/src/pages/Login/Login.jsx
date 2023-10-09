@@ -18,7 +18,6 @@ const Login = () => {
       <div className='right_login'> 
         <div className='card_right'>
           <h1>Login</h1> 
-          
          <div className="Ipts_Container">
           <div className="CIpts">
             <Inputs pHolderI="E-Mail ou CPF" TypesI="text" LabelI={"USUÁRIO"}/>
@@ -33,7 +32,9 @@ const Login = () => {
             </div>
           </div>
         </div>
-          <a id='Esqueceu' href="" >Esqueceu a senha?</a> 
+          <Link className='Link_alterarsenha' to="/alterarsenha">
+            <a id='Esqueceu' href="" >Esqueceu a senha?</a> 
+          </Link>
           <br></br>
           <br></br>
           <div className="ContainerBTNlogin">
