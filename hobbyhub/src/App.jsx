@@ -10,7 +10,7 @@ import Crie from './pages/Crie/Crie';
 import Descrição from './pages/Descrição/Descrição';
 import Sobre from './pages/Sobre/Sobre';
 import Alterarsenha from './pages/Alterarsenha/Alterarsenha';
-
+import Contatos from './pages/Contatos/Contatos';
 
 function App() {
   return (
@@ -27,6 +27,7 @@ function App() {
           <Route path='/crie' element={<Crie/>} />
           <Route path='/sobre' element={<Sobre />} />
           <Route path='/alterarsenha' element={<Alterarsenha/>} />
+          <Route path='/Contatos' element={<Contatos/>} />
         </Routes>
       </div>
     </Router>

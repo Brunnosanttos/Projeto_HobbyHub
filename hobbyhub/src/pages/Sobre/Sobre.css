@@ -2,13 +2,13 @@
     margin: 0;
     padding: 0;
     width: 100%;
-    height: 100vh;
+    height: 100%;
     display: flex;
     flex-direction: column;
 }
 
 .logo_about {
-    margin-top: 1%;
+    margin-top: -3%;
     width: 100%;
     height: 20%;
     align-items: center;
@@ -17,7 +17,7 @@
 }
 
 .logo_about img {
-    width: 30vw;
+    width: 20vw;
     height: 40vh;
 }
 
@@ -28,6 +28,7 @@
 }
 
 .tittle_about h1 {
+    margin-top: -7vh;
     color: white;
     font-family: Lilita One;
     font-weight: 400;
@@ -36,8 +37,8 @@
 .content_about_left {
     display: flex;
     place-self: center;
-    width: 80%;
-    height: 30%;
+    width: 70%;
+    height: 35vh;
     background-color: red;
     justify-content: center;
 }
@@ -47,7 +48,7 @@
     margin-left: 5%;
     background-color: green;
     height: 80%;
-    width: 25%;
+    width: 15vw;
     border-radius: 50%;
     background-size: cover;
 }
@@ -63,8 +64,8 @@
 .content_about_right {
     display: flex;
     place-self: center;
-    width: 80%;
-    height: 30%;
+    width: 70%;
+    height: 35vh;
     background-color: red;
     justify-content: center;
 }
@@ -74,7 +75,7 @@
     margin-right: 5%;
     background-color: green;
     height: 80%;
-    width: 25%;
+    width: 15vw;
     border-radius: 50%;
     background-size: cover;
 }
@@ -85,4 +86,19 @@
     width: 60%;
     height: 80%;
     background-color: blue;
+}
+
+.footer_about {
+    display: flex;
+    margin-top: 20vh;
+}
+
+.btn_about {
+    display: flex;
+    height: 5vh;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    place-self: end; 
+    gap: 15px;
 }
