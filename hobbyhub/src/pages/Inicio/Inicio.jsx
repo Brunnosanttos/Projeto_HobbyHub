@@ -12,6 +12,7 @@ const Inicio = () => {
       };
   return (
     <div className='main_inicio'>
+        <section className='section0'>
         <div id='btn_login'>
         <Link to="/login">
             <button onClick={handleClick} >
@@ -31,29 +32,30 @@ const Inicio = () => {
                 <p>Você já imaginou encontrar pessoas apaixonadas pelos mesmos hobbies que você? Apresentamos o HobbyHub, a plataforma revolucionária que conecta pessoas com interesses semelhantes e as ajuda a explorar juntas o emocionante mundo dos hobbies.</p>
             </div>
         </div>
-        <div className='section1'>
-            <h1>O que é HobbyHub?</h1>
+        </section>
+        <section className='section1'>
             <img src={bike} alt="bike" />
             <div className='text_overp1'>
+            <h1>O que é HobbyHub?</h1>
                 <p>O HobbyHub é uma comunidade dinâmica de entusiastas de hobbies de todas as partes do mundo. Nosso objetivo é tornar mais fácil do que nunca encontrar, conhecer e interagir com pessoas que compartilham suas paixões e interesses.</p>
             </div>
-        </div>
-        <div className='section2'>
-            <h1>O que nos torna especial?</h1>
+        </section>
+        <section className='section2'>
             <img src={Dançando} alt="Dançando" />
             <div className='text_overp2'>
+            <h1>O que nos torna especial?</h1>
                 <p>O HobbyHub oferece uma ampla variedade de hobbies e permite que os usuários encontrem eventos e grupos locais relacionados aos seus interesses, promovendo amizades e oportunidades de participação em atividades que amam.</p>
             </div>
-        </div>
-        <div className='section3'>
-            <h1>Como Funciona?</h1>
+        </section>
+        <section className='section3'>
             <img src={Música} alt="Música" />
             <div className='text_overp3'>
+            <h1>Como Funciona?</h1>
                 <p>Explore Hobbies: Explore uma ampla gama de hobbies e encontre aqueles que mais lhe interessam.
                 Eventos e Grupos: Explore eventos locais e grupos específicos de hobby para atividades presenciais ou online.</p>
             </div>
-        </div>
-        <Footer/>
+        </section>
+        <Footer id='footer_inicio'/>
     </div>
   )
 }
