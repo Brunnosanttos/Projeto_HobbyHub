@@ -15,9 +15,9 @@
 
 #btn_login {
     display: flex;
-    justify-content: flex-end;
     position: absolute;
     width: 100%;
+    place-content: flex-end;
 }
 
 #btn_login a {
@@ -56,7 +56,9 @@
 
 .container_logo img {
     width: 30%;
-    height: 30vh;
+    height: 35vh;
+    max-width: 300px;
+    margin-top: 5vh;
 }
 
 .main_content {
@@ -192,3 +194,44 @@
     height: 100vh;
     opacity: 0.4;
 }
+
+.navigation {
+    position: fixed;
+    display: flex;
+    right: 0;
+    left: 0;
+    width: 60%;
+    gap: 30px;
+    color: #8484ff;
+    z-index: 999;
+    margin: 0 25vw;
+    font-family: Lilita One;
+    font-size: 12pt;
+}
+
+.navigation h1:hover {
+    color: #5a5aff;
+    cursor: pointer;
+}
+
+.selected {
+    text-decoration: underline; /* Adicione o estilo de sublinhado desejado */
+  }
+  
+  .selected:after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 2px; 
+    background-color: #ffffff; 
+    transform: scaleX(0); 
+    transform-origin: bottom right;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .selected:hover:after {
+    transform: scaleX(1); 
+  }
+  
