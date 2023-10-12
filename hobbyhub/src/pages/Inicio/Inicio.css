@@ -69,17 +69,21 @@
 }
 
 .container_p1 {
-    margin-top: 15%;
+    margin-top: 10%;
     display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-end;
     margin-bottom: 25%;
+    width: 55%;
+    margin-left: auto;
+    justify-content: center;
 }
 
 .main_content p {
-    width: 50%;
+    width: 70%;
     text-align: left;
     color: white;
+    font-family: Lilita One;
+    font-weight: 400;
+    font-size: 15pt;
 }
 
 .section1 {
@@ -90,28 +94,36 @@
 }
 
 .section1 h1 {
+    width: 30%;
     color: white;
-    padding-left: 4%;
-    margin-top: -1%;
     font-size: 40pt;
-    height: 10%;
+    height: 100%;
     display: flex;
+    align-items: center;
+    font-family: Lilita One;
+    font-weight: 400;
+    font-size: 35pt;
 }
 
 .text_overp1 {
     position: absolute;
-    top: 50%;
+    top: 40%;
     color: white;
     text-align: center;
     display: flex;
     justify-content: center;
     width: 100%;
+    font-family: Lilita One;
+    font-weight: 400;
+    font-size: 15pt;
 }
 
 .text_overp1 p{
+    display: flex;
     margin: 0;
     padding: 0;
     width: 50%;
+    align-items: center;
 }
 
 .section1 img {
@@ -128,28 +140,36 @@
 }
 
 .section2 h1 {
+    width: 30%;
     color: white;
-    padding-left: 4%;
-    margin-top: -4%;
     font-size: 40pt;
-    height: 10%;
+    height: 100%;
     display: flex;
+    align-items: center;
+    font-family: Lilita One;
+    font-weight: 400;
+    font-size: 35pt;
 }
 
 .text_overp2 {
     position: absolute;
-    top: 50%;
+    top: 35%;
     color: white;
     text-align: center;
     display: flex;
     justify-content: center;
     width: 100%;
+    font-family: Lilita One;
+    font-weight: 400;
+    font-size: 15pt;
 }
 
 .text_overp2 p{
+    display: flex;
     margin: 0;
     padding: 0;
     width: 50%;
+    align-items: center;
 }
 
 .section2 img {
@@ -166,27 +186,36 @@
 }
 
 .section3 h1 {
+    width: 30%;
     color: white;
-    padding-left: 4%;
-    margin-top: -1%;
     font-size: 40pt;
-    height: 10%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    font-family: Lilita One;
+    font-weight: 400;
+    font-size: 35pt;
 }
 
 .text_overp3 {
     position: absolute;
-    top: 50%;
+    top: 35%;
     color: white;
     text-align: center;
     display: flex;
     justify-content: center;
     width: 100%;
+    font-family: Lilita One;
+    font-weight: 400;
+    font-size: 15pt;
 }
 
 .text_overp3 p{
+    display: flex;
     margin: 0;
     padding: 0;
     width: 50%;
+    align-items: center;
 }
 
 .section3 img {
@@ -206,7 +235,7 @@
     z-index: 999;
     margin: 0 25vw;
     font-family: Lilita One;
-    font-size: 12pt;
+    font-size: 10pt;
 }
 
 .navigation h1:hover {
@@ -223,12 +252,12 @@
     position: absolute;
     bottom: 0;
     left: 0;
-    width: 100%;
+    width: 75%;
     height: 2px; 
     background-color: #ffffff; 
     transform: scaleX(0); 
     transform-origin: bottom right;
-    transition: transform 0.3s ease-in-out;
+    transition: transform 0.5s ease-in-out;
   }
   
   .selected:hover:after {
