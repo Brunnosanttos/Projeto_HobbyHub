@@ -1,6 +1,7 @@
 .Container {
   box-sizing: border-box;
   width: 100%;
+  max-width: 100vw;
   height: 100%;
   background: linear-gradient(180deg, #6700BF 0%, #000 65.61%, #000 100%);
   background-repeat: no-repeat;

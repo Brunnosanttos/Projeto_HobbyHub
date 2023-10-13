@@ -264,3 +264,75 @@
     transform: scaleX(1); 
   }
   
+  /* Estilos específicos para telas menores (exemplo: até 768px) */
+@media screen and (max-width: 768px) {
+    .section0 {
+        height: 100vh; /* Evitar altura fixa em telas pequenas */
+    }
+
+    .navigation {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        margin-top: 6vh;
+    }
+
+    #btn_login {
+        position: relative; /* Voltar à posição relativa para o fluxo de documentos */
+        text-align: right; /* Alinhar o botão à direita */
+    }
+
+    .container_logo {
+        height: auto; /* Evitar altura fixa em telas pequenas */
+        text-align: center; /* Alinhar o conteúdo ao centro */
+    }
+
+    .container_logo img {
+        width: 80%; /* Reduzir a largura da imagem */
+        height: auto; /* Evitar altura fixa em telas pequenas */
+        max-width: none; /* Remover a largura máxima da imagem */
+        margin-top: 5vh; /* Ajustar margem superior */
+    }
+
+    .main_content {
+        margin-top: 5%; /* Ajustar margem superior */
+    }
+
+    .container_p1 {
+        width: 90%; /* Ajustar a largura do conteúdo */
+        margin-left: auto;
+    }
+
+    .main_content p {
+        width: 100%; /* Utilizar toda a largura disponível */
+        text-align: center; /* Centralizar o texto */
+    }
+
+    .section1 h1,
+    .section2 h1,
+    .section3 h1 {
+        flex-direction: column;
+        width: 90%; /* Ajustar a largura do título */
+        font-size: 30pt; /* Reduzir o tamanho da fonte */
+    }
+    
+    .text_overp1,
+    .text_overp2,
+    .text_overp3 {
+        top: 30%; /* Ajustar a posição do texto sobreposto */
+        flex-direction: column;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .text_overp1 p,
+    .text_overp2 p,
+    .text_overp3 p {
+        width: 80%; /* Ajustar a largura do texto sobreposto */
+    }
+}

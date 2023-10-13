@@ -50,7 +50,9 @@ const Crie = () => {
             </div>
         </div>
         <div className='right_content_create'>
-            <input type="text" placeholder='Faça uma breve descrição' />
+            <label className='textarea'>
+              <textarea name="textarea" id="textarea" cols="70" rows="25"></textarea>
+            </label>
             <button>Crie</button>
         </div>
       </div>

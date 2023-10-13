@@ -10,7 +10,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    gap:40px;
+    gap: 20px;
 }
 
 .left_login {
@@ -20,7 +20,6 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-
 }
 
 .card_left {
@@ -61,7 +60,7 @@
 }
 
 .card_right {
-    width: 70%;
+    width: 100%;
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -186,4 +185,101 @@
 
 .LinksLogin{
     text-decoration: none;
+}
+
+@media screen and (max-width: 768px) {
+    .main_login {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        width: 100%;
+        max-width: 100vw;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        flex-direction: column;
+    }
+
+    .left_login {
+        margin-top: -10%;
+        display: flex;
+        padding: 0;
+        width: 100%; /* Largura total em telas menores */
+        max-height: 40vh;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .card_left {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .card_left h2 {
+        font-size: 5vh; /* Tamanho de fonte maior para dispositivos móveis */
+        text-align: center; /* Centralizar o texto */
+    }
+
+    .card_left img {
+        margin-top: -10%;
+        max-width: 100%; 
+        width: 60vw;
+    }
+
+    .right_login {
+        width: 100%; /* Largura total em telas menores */
+        max-width: 100vw;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 60vh;
+    }
+
+    .card_right {
+        width: 100%; /* Largura total em telas menores */
+        margin-top: -5vh;
+    }
+
+    .card_right h1 {
+        font-size: 5vh; /* Tamanho de fonte maior para dispositivos móveis */
+        text-align: center; /* Centralizar o texto */
+    }
+
+    .ContainerBTNlogin {
+        flex-direction: column; /* Alinhar botões verticalmente em telas menores */
+    }
+
+    #ln-btns {
+        display: none; /* Ocultar a linha divisória em telas menores */
+    }
+
+    .card_right #Esqueceu {
+        font-size: 3vh; /* Tamanho de fonte maior para dispositivos móveis */
+    }
+
+    .btn {
+        width: 100%; /* Largura total em telas menores */
+        font-size: 4vh; /* Tamanho de fonte maior para dispositivos móveis */
+    }
+
+    .btn:hover {
+        width: 100%; /* Largura total em telas menores */
+    }
+
+    .btn a button {
+        width: 100%; /* Largura total em telas menores */
+        font-size: 3vh; /* Tamanho de fonte maior para dispositivos móveis */
+    }
+
+    .btn {
+        font-size: 3vh;
+    }
+
+    .btn a button {
+        font-size: 2vh;
+    }
 }
