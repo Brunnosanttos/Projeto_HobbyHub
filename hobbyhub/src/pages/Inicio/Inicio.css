@@ -229,13 +229,14 @@
     display: flex;
     right: 0;
     left: 0;
-    width: 60%;
+    width: 50%;
     gap: 30px;
     color: #8484ff;
     z-index: 999;
     margin: 0 25vw;
     font-family: Lilita One;
     font-size: 10pt;
+    justify-content: center;
 }
 
 .navigation h1:hover {
