@@ -180,3 +180,125 @@
 #btn_github:hover {
     cursor: pointer;
 }
+
+@media screen and (max-width: 768px) {
+    .logo_about {
+        height: 30%;
+    }
+
+    .logo_about img {
+        width: 40%;
+        height: auto;
+    }
+
+    .tittle_about h1 {
+        margin-top: 0;
+        font-size: 1.5rem;
+    }
+
+    .content_about_left, .content_about_right {
+        width: 80%;
+        margin-top: 20px;
+        height: 20vh;
+    }
+
+    .container_img_left, .container_img_right {
+        width: 20%;
+        height: 30%;
+    }
+
+    .section_about_left, .section_about_right {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .footer_about {
+        margin-top: 10vh;
+    }
+
+    .btn_about {
+        display: flex;
+        height: 5vh;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        place-self: end; 
+        gap: 15px;
+    }
+    
+    #btn_gmail {
+        display: flex;
+        flex-direction: row;
+        background: #717171;
+        border: none;
+        color: white;
+        width: 13vw;
+        height: 3.5vh;
+        font-family: Lilita One;
+        font-weight: 400;
+        border-radius: 50px;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    #btn_gmail:hover {
+        background-color: #5e5e5e;
+        cursor: pointer;
+        transition: all 0.2s ease;
+    }
+    
+    #icon_gmail {
+        width: 20px;
+        height: 15px;
+    }
+    
+    #btn_linkedin {
+        display: flex;
+        flex-direction: row;
+        background: #1BADFF;
+        border: none;
+        color: white;
+        width: 16vw;
+        height: 3.5vh;
+        font-family: Lilita One;
+        font-weight: 400;
+        border-radius: 50px;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    #icon_linkedin {
+        width: 20px;
+        height: 15px;
+    }
+    
+    #btn_linkedin:hover {
+        background-color: #008ddf;
+        cursor: pointer;
+        transition: all 0.2s ease;
+    }
+    
+    #btn_github {
+        display: flex;
+        flex-direction: row;
+        background: #000000;
+        border: none;
+        color: white;
+        width: 13vw;
+        height: 3.5vh;
+        font-family: Lilita One;
+        font-weight: 400;
+        border-radius: 50px;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    #icon_git {
+        width: 20px;
+        height: 15px;
+    }
+    
+    #btn_github:hover {
+        cursor: pointer;
+    }
+}

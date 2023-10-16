@@ -15,9 +15,6 @@ const Perfil = () => {
 
   return (
     <div className='profile_main'>
-      <div className='logo_profile'>
-          <img src={logoprojeto} alt="Logo" />
-      </div>
       <div className='content_profile'>
         <div className='tittle_page'>
           <h1>Perfil do usuário</h1>

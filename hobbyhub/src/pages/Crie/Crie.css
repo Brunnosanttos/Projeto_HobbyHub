@@ -1,7 +1,7 @@
 .create_main {
     margin: 0;
     padding: 0;
-    width: 100%;
+    width: 100vw;
     height: 100vh;
     display: flex;
     box-sizing: border-box;
@@ -18,7 +18,7 @@
 }
 
 .tittle_page_create {
-    width: 85%;
+    width: 100%;
     height: 10%;
     display: flex;
     justify-content: center;
@@ -170,9 +170,77 @@ label.upload_button_create {
     font-weight: 400;
 }
 
-@media screen and (max-width: 768px){
-    .create_main{
-      width: 100%;
-      flex-direction: column;
+@media screen and (max-width: 768px) {
+
+    .create_main {
+        display: flex;
     }
-  }
+
+    .logo_create {
+        max-width: 30%; /* Ajustar o tamanho da logo para dispositivos móveis */
+    }
+
+    .tittle_page_create {
+        width: 100%;
+        margin-left: 5%;
+    }
+
+    .tittle_page_create h1 {
+        font-size: 1.8em; /* Reduzir o tamanho da fonte do título */
+    }
+    
+    .left_content_create .upload_button_create {
+        margin: 0;
+    }
+
+    .content_create {
+        align-items: center; /* Centralizar os elementos */
+        flex-direction: column;
+    }
+
+    .left_content_create {
+        display: flex;
+        height: 80vh;
+        width: 80%; /* Preencher a largura da tela */
+        margin-top: 50vh;
+        align-items: flex-end;
+        justify-content: center;
+    }
+
+    .upload_button_create {
+        width: 100%; /* Preencher a largura do contêiner pai */
+    }
+
+    .selected-image-preview {
+        margin-top: 5%;
+        width: 80vw;
+        justify-content: center;
+    }
+
+    .selected-image-preview img {
+        width: 80%; /* Ajustar a largura da imagem */
+    }
+
+    .hobby_inf {
+        width: 100%; /* Preencher a largura da tela */
+        margin: 5% 0; /* Aumentar o espaçamento superior e inferior */
+    }
+
+    .hobby_inf #ipt {
+        width: 100%; /* Preencher a largura do contêiner pai */
+    }
+
+    .right_content_create {
+        width: 100%; /* Preencher a largura da tela */
+        margin: 5% 0; /* Aumentar o espaçamento superior e inferior */
+    }
+
+    .right_content_create button {
+        width: 80%; /* Ajustar a largura do botão */
+        height: 5vh;
+    }
+
+    #textarea {
+        width: 90vw;
+    }
+}

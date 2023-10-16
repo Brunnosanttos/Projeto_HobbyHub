@@ -17,7 +17,7 @@
 }
 
 .content_profile {
-    width: 65%;
+    width: 100%;
     height: 100vh;
 }
 
@@ -116,7 +116,7 @@
   .btn_perfil .psswd {
     color: black;
     display: flex;
-    width: 40%;
+    width: 30%;
     height: 5vh;
     justify-content: center;
     align-items: center;
@@ -137,7 +137,7 @@
   .btn_perfil .clear {
     color: white;
     display: flex;
-    width: 40%;
+    width: 30%;
     height: 5vh;
     justify-content: center;
     align-items: center;
@@ -154,3 +154,39 @@
     background-color: #6900c5;
     cursor: pointer;
   }
+
+  @media screen and (max-width: 768px) {
+
+    .content_profile {
+      justify-content: center;
+      width: 100%;
+    }
+
+    .upload_img {
+        flex-direction: column; /* Empilhe a imagem e o botão */
+        align-items: center;
+    }
+
+    .upload_img img {
+        max-width: 80%; /* Reduza um pouco a largura da imagem */
+        width: 50vw;
+        height: 25vh;
+    }
+
+    .upload_img_btn {
+        flex-direction: column; /* Empilhe o botão e o texto */
+        text-align: center;
+    }
+
+    .upload_button_profile {
+        width: 60%; /* Reduza a largura do botão */
+    }
+
+    .btn_perfil .psswd {
+      width: 60vw;
+    }
+
+    .btn_perfil .clear {
+      width: 60vw;
+    }
+}

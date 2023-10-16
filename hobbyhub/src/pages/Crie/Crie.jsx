@@ -22,9 +22,6 @@ const Crie = () => {
 
   return (
     <div className='create_main'>
-      <div className='logo_create'>
-        <img src={logoprojeto} alt="Logo" />
-      </div>
       <div className='tittle_page_create'>
         <h1>Crie</h1>
       </div>

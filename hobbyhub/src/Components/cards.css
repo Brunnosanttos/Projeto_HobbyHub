@@ -84,3 +84,17 @@
     color: #ffd000;
     cursor: pointer;
 }
+
+@media screen and (max-width: 768px) {
+    .card_main {
+        width: 50vw;
+        height: 35vh;
+    }
+
+    .card_main h3 {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+}
