@@ -231,12 +231,16 @@
     left: 0;
     width: 50%;
     gap: 30px;
-    color: #8484ff;
     z-index: 999;
     margin: 0 25vw;
     font-family: Lilita One;
     font-size: 10pt;
     justify-content: center;
+    margin-top: 5vh;
+}
+
+.navigation h1 {
+    color: #8181fc;
 }
 
 .navigation h1:hover {
