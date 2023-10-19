@@ -1,49 +1,103 @@
-import React from 'react'; 
-import logoprojeto from '../../assets/logoprojeto.png'; 
-import './Cadastro.css'; 
+import React, { useState } from 'react';
+import logoprojeto from '../../assets/logoprojeto.png';
+import './Cadastro.css';
 
-const Cadastro = () => { 
+const Cadastro = () => {
+  // Defina estados para os campos do formulário
+  const [email, setEmail] = useState('');
+  const [nome, setNome] = useState('');
+  const [nomeDeUsuario, setNomeDeUsuario] = useState('');
+  const [dataDeNascimento, setDataDeNascimento] = useState('');
+  const [cpf, setCPF] = useState('');
+  const [senha, setSenha] = useState('');
+
+  // Função para lidar com o envio do formulário
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    // Aqui você pode acessar os valores dos estados (email, nome, nomeDeUsuario, etc.) e fazer o que precisar com eles, como enviar para um servidor.
+  };
+
   return (
-    <div className='main_cadastro'> {/* Inicia um container principal com classe 'Cadcontainer0' */}
-      <div className='left_cadastro'> {/* Inicia um subcontainer com classe 'Cadcontainer1' */}
-        <h1>Bem-vindo!</h1> {/* Título com classe 'Cadcontainer1h1' */}
-        <p>Comece criando um perfil e explore a ampla gama de hobbies e eventos.</p> {/* Parágrafo com classe 'Cadcontainer1p' */}
-        <img src={logoprojeto} alt="Logo"  /> {/* Imagem do logotipo com classe 'Logo' */}
+    <div className="main_cadastro">
+      <div className="left_cadastro">
+        <h1>Bem-vindo!</h1>
+        <p>Comece criando um perfil e explore a ampla gama de hobbies e eventos.</p>
+        <img src={logoprojeto} alt="Logo" />
       </div>
-      <div className='right_cadastro'> {/* Inicia outro subcontainer com classe 'Cadcontainer2' */}
-        <div className='card_cadastro'>
-          <h1>Criar conta</h1> {/* Título com classe 'Cadcontainer2h1' */}
-          <p>Registre-se com seu Email</p> {/* Parágrafo com classe 'Cadcontainer2p' */}
+      <div className="right_cadastro">
+        <div className="card_cadastro">
+          <h1>Criar conta</h1>
+          <p>Registre-se com seu Email</p>
 
-          <label>
-            <input type="email" className='input_cad' placeholder='Digite seu Email' />
-          </label>
+          <form onSubmit={handleSubmit}>
+            <label>
+              <input
+                type="email"
+                className="input_cad"
+                placeholder="Digite seu Email"
+                value={email}
+                onChange={(e) => setEmail(e.target.value)}
+              />
+            </label>
 
-          <label>
-            <input type="text" className='input_cad' placeholder='Digite seu nome completo' />
-          </label>
+            <label>
+              <input
+                type="text"
+                className="input_cad"
+                placeholder="Digite seu nome completo"
+                value={nome}
+                onChange={(e) => setNome(e.target.value)}
+              />
+            </label>
 
-          <label>
-            <input type="text" className='input_cad' placeholder='Nome de usuário' />
-          </label>
+            <label>
+              <input
+                type="text"
+                className="input_cad"
+                placeholder="Nome de usuário"
+                value={nomeDeUsuario}
+                onChange={(e) => setNomeDeUsuario(e.target.value)}
+              />
+            </label>
 
-          <label>
-            <input type="date" className='input_cad' placeholder='Selecione a Data de Nascimento' />
-          </label>
+            <label>
+              <input
+                type="date"
+                className="input_cad"
+                placeholder="Selecione a Data de Nascimento"
+                value={dataDeNascimento}
+                onChange={(e) => setDataDeNascimento(e.target.value)}
+              />
+            </label>
 
-          <label>
-            <input type="text" className='input_cad' placeholder='Digite seu CPF' />
-          </label>
+            <label>
+              <input
+                type="text"
+                className="input_cad"
+                placeholder="Digite seu CPF"
+                value={cpf}
+                onChange={(e) => setCPF(e.target.value)}
+              />
+            </label>
 
-          <label>
-            <input type="password" className='input_cad' placeholder='Digite sua Senha' />
-          </label>
+            <label>
+              <input
+                type="password"
+                className="input_cad"
+                placeholder="Digite sua Senha"
+                value={senha}
+                onChange={(e) => setSenha(e.target.value)}
+              />
+            </label>
 
-          <button className='btn_cad'>Cadastre-se</button> {/* Botão de cadastro com classe 'Cadbutton1' */}
+            <button className="btn_cad" type="submit">
+              Cadastre-se
+            </button>
+          </form>
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Cadastro; 
+export default Cadastro;

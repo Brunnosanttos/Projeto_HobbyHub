@@ -280,10 +280,11 @@
         padding: 0;
         display: flex;
         width: 100%;
+        gap: 15px;
         justify-content: center;
         align-items: center;
         flex-direction: row;
-        margin-top: 6vh;
+        margin-top: 12vh;
     }
 
     #btn_login {
@@ -313,8 +314,12 @@
     }
 
     .main_content p {
-        width: 100%; /* Utilizar toda a largura disponível */
+        margin-left: -10%;
+        width: 100vw; /* Utilizar toda a largura disponível */
         text-align: center; /* Centralizar o texto */
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
     .section1 h1,

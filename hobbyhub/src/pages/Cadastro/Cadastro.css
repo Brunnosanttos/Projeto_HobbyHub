@@ -18,7 +18,7 @@
     width: 30%;
     max-width: 450px;
     height: 80%;
-    max-height: 90vh;
+    max-height: 80vh;
     color: black;
     display: flex;
     flex-direction: column;
@@ -28,14 +28,14 @@
 }
 
 .left_cadastro h1 {
+    margin: 0;
     font-size: 2.5em;
-    font-style: normal;
     font-weight: 300;
-    line-height: normal;
+    color: black;
 }
 
 .left_cadastro p {
-    margin: 5%;
+    margin-top: 5vh;
     font-size: 1.6em;
     font-style: normal;
     font-weight: 300;
@@ -58,12 +58,14 @@
 }
 
 .card_cadastro {
+    margin-top: 5vh;
     width: 90%;
     text-align: center;
     justify-content: center;
 }
 
 .card_cadastro h1 {
+    margin: 0;
     color: #FFF;
     font-family: Lilita One;
     font-size: 46px;
@@ -140,23 +142,28 @@
         width: 70%; /* Reduzir a largura em telas menores */
         height: 30vh; /* Reduzir a altura em telas menores */
         margin-top: -5vh;
+        background-color: transparent;
+        color: white;
     }
 
     .left_cadastro h1 {
-        font-size: 2em; /* Reduzir o tamanho de fonte em telas menores */
+        font-size: 1.6em; /* Reduzir o tamanho de fonte em telas menores */
+        color: white;
     }
 
     .left_cadastro p {
-        margin-top: -1vh;
-        font-size: 1.4em; /* Reduzir o tamanho de fonte em telas menores */
+        margin: 0;
+        font-size: 1.2em; /* Reduzir o tamanho de fonte em telas menores */
     }
 
     .left_cadastro img {
-        width: 50%; /* Reduzir a altura da imagem */
+        width: 50vw; /* Reduzir a altura da imagem */
         margin-top: -3vh;
     }
 
     .right_cadastro {
+        display: flex;
+        justify-content: center;
         height: 60vh;
         width: 90%; /* Reduzir a largura em telas menores */
     }
