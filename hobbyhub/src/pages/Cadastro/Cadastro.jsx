@@ -3,6 +3,7 @@ import logoprojeto from '../../assets/logoprojeto.png';
 import './Cadastro.css';
 
 const Cadastro = () => {
+  //variáveis
   const [email, setEmail] = useState('');
   const [nome, setNome] = useState('');
   const [nomeDeUsuario, setNomeDeUsuario] = useState('');
