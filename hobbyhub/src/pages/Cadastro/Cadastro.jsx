@@ -3,7 +3,6 @@ import logoprojeto from '../../assets/logoprojeto.png';
 import './Cadastro.css';
 
 const Cadastro = () => {
-  // Defina estados para os campos do formulário
   const [email, setEmail] = useState('');
   const [nome, setNome] = useState('');
   const [nomeDeUsuario, setNomeDeUsuario] = useState('');
