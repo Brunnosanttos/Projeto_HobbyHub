@@ -4,13 +4,17 @@
     width: 100%;
 }
 
+.xd {
+    width: 80vw;
+}
 
 .ipt-loginpage{
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
     align-items: center;
-    width:500px;
+    width: 60vw;
+    max-width: 400px;
     gap: 10px;
 
 }

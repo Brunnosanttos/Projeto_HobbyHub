@@ -5,9 +5,6 @@ import logoprojeto from '../../assets/logoprojeto.png';
 const Crie = () => {
   return (
     <div className='descricao_main'>
-      <div className='logo_descricao'>
-        <img src={logoprojeto} alt="Logo" />
-      </div>
       <div className='tittle_page_descricao'>
         <h1>Descrição</h1>
       </div>

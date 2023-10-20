@@ -66,7 +66,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin-bottom: 30%;
+    margin-bottom: 20%;
 }
 
 .card_right h1 {
@@ -82,7 +82,7 @@
     justify-content: center;
     align-items: center;
     gap: 20px;
-    width: 100%;
+    width: 75%;
 }
 .CIpts{
     display: flex;
@@ -90,6 +90,7 @@
     align-items: flex-end;
     width: 100px;
 }
+
 .IconC{
     display: flex;
     align-items: center;
@@ -132,7 +133,7 @@
 }
 
 .Link_alterarsenha {
-    width: 100%;
+    width: 60%;
 }
 
 .btn {
@@ -253,16 +254,21 @@
         flex-direction: column; /* Alinhar botões verticalmente em telas menores */
     }
 
+    .CIpts{
+        width: 70vw;
+    }
+
     #ln-btns {
         display: none; /* Ocultar a linha divisória em telas menores */
     }
 
     .card_right #Esqueceu {
-        font-size: 3vh; /* Tamanho de fonte maior para dispositivos móveis */
+        font-size: 2.5vh; /* Tamanho de fonte maior para dispositivos móveis */
+        padding-top: 2vh;
     }
 
     .btn {
-        width: 100%; /* Largura total em telas menores */
+        width: 50vw; /* Largura total em telas menores */
         font-size: 4vh; /* Tamanho de fonte maior para dispositivos móveis */
     }
 

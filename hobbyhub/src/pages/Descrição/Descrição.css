@@ -18,14 +18,16 @@
 }
 
 .tittle_page_descricao {
-    width: 85%;
+    padding-top: 5vh;
+    width: 100%;
     height: 10%;
     display: flex;
     justify-content: center;
-    margin-left: -8%;
 }
 
 .tittle_page_descricao h1 {
+    display: flex;
+    justify-content: center;
     position: absolute;
     z-index: 999;
     color: white;
@@ -93,16 +95,20 @@
     margin-top: 5%;
 }
 
-.btn_descricao #confirm {
+.btn_descricao #confirm,
+.btn_descricao #comments {
     width: 35%;
     height: 50px;
     border-radius: 15px;
     border: none;
-    background-color: #8A01FF;
     cursor: pointer;
     font-family: Lilita One;
     font-size: 15pt;
     font-weight: 400;
+}
+
+.btn_descricao #confirm {
+    background-color: #8A01FF;
 }
 
 .btn_descricao #confirm:hover {
@@ -110,17 +116,50 @@
 }
 
 .btn_descricao #comments {
-    width: 35%;
-    height: 50px;
-    border-radius: 15px;
-    border: none;
     background-color: #C785FF;
-    cursor: pointer;
-    font-family: Lilita One;
-    font-size: 15pt;
-    font-weight: 400;
 }
 
 .btn_descricao #comments:hover {
     background-color: #6900c5;
+}
+
+/* Adicione uma regra de mídia para estilos responsivos para telas menores */
+@media screen and (max-width: 768px) {
+    .descricao_main {
+        flex-direction: column; /* Altera a direção da flexbox para empilhar elementos verticalmente */
+    }
+
+    .tittle_page_descricao h1 {
+        width: 100%;
+        font-size: 1.8em; /* Reduz o tamanho da fonte do título em telas menores */
+    }
+
+    .content_descricao {
+        flex-direction: column;
+    }
+
+    .left_content_descricao,
+    .right_content_descricao {
+        width: 100%; /* Preenche toda a largura em telas menores */
+        margin-top: 0; /* Reduz o espaço superior em telas menores */
+    }
+
+    #hobby_inf {
+        margin-top: 10vh;
+    }
+
+    .descricao {
+        width: 100%; /* Preenche toda a largura em telas menores */
+        max-height: 50vh;
+    }
+
+    .btn_descricao {
+        flex-direction: column; /* Empilha os botões verticalmente */
+    }
+
+    .btn_descricao #confirm,
+    .btn_descricao #comments {
+        width: 100%; /* Preenche toda a largura em telas menores */
+        margin-top: 2%; /* Adiciona espaço entre os botões em telas menores */
+    }
 }

@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import './Crie.css'; 
-import logoprojeto from '../../assets/logoprojeto.png';
 
 const Crie = () => {
   const [selectedImage, setSelectedImage] = useState(null);
@@ -48,7 +47,7 @@ const Crie = () => {
         </div>
         <div className='right_content_create'>
             <label className='textarea'>
-              <textarea name="textarea" id="textarea" cols="70" rows="25"></textarea>
+              <textarea name="textarea" id="textarea" cols="50" rows="20"></textarea>
             </label>
             <button>Crie</button>
         </div>

@@ -1,32 +1,22 @@
 .create_main {
     margin: 0;
     padding: 0;
-    width: 100vw;
+    width: 100%;
+    max-width: 100vw;
     height: 100vh;
     display: flex;
     box-sizing: border-box;
 }
 
-.logo_create {
-    max-width: 10%;
-    margin-left: 3%;
-    margin-top: -2%;
-}
-
-.logo_create img {
-    width: 100%;
-}
-
 .tittle_page_create {
+    padding-top: 5vh;
     width: 100%;
     height: 10%;
     display: flex;
     justify-content: center;
-    margin-left: -8%;
 }
 
 .tittle_page_create h1 {
-    position: absolute;
     z-index: 999;
     color: white;
     font-family: Lilita One;
@@ -35,8 +25,11 @@
 }
 
 .content_create {
+    margin: 0;
+    padding: 0;
     height: 100%;
     width: 100%;
+    max-width: 100vw;
     align-items: center;
     justify-content: center;
     display: flex;
@@ -132,16 +125,9 @@ label.upload_button_create {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     width: 40%;
-    height: 70%;
-}
-
-.right_content_create input {
-    display: flex;
-    width: 100%;
-    height: 100%;
-    background-color: #ffffff;
-    border-radius: 15px;
+    height: 100vh;
 }
 
 .right_content_create button {
@@ -149,7 +135,7 @@ label.upload_button_create {
     background-color: #C785FF;
     border: none;
     width: 40%;
-    height: 10%;
+    height: 7vh;
     border-radius: 15px;
     cursor: pointer;
     font-family: Lilita One;
@@ -173,16 +159,17 @@ label.upload_button_create {
 @media screen and (max-width: 768px) {
 
     .create_main {
+        margin: 0;
+        padding: 0;
+        width: 100vw;
+        height: 150vh;
         display: flex;
-    }
-
-    .logo_create {
-        max-width: 30%; /* Ajustar o tamanho da logo para dispositivos móveis */
+        box-sizing: border-box;
+        flex-direction: column;
     }
 
     .tittle_page_create {
-        width: 100%;
-        margin-left: 5%;
+        width: 100vw;
     }
 
     .tittle_page_create h1 {
@@ -194,6 +181,7 @@ label.upload_button_create {
     }
 
     .content_create {
+        width: 100vw;
         align-items: center; /* Centralizar os elementos */
         flex-direction: column;
     }
@@ -219,6 +207,7 @@ label.upload_button_create {
 
     .selected-image-preview img {
         width: 80%; /* Ajustar a largura da imagem */
+        margin-top: 10vh;
     }
 
     .hobby_inf {
@@ -232,7 +221,8 @@ label.upload_button_create {
 
     .right_content_create {
         width: 100%; /* Preencher a largura da tela */
-        margin: 5% 0; /* Aumentar o espaçamento superior e inferior */
+        margin-top: 10vh;
+
     }
 
     .right_content_create button {
@@ -241,6 +231,6 @@ label.upload_button_create {
     }
 
     #textarea {
-        width: 90vw;
+        width: 80vw;
     }
 }
