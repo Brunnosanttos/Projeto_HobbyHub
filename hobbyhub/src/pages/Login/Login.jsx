@@ -1,12 +1,23 @@
-import React from 'react'; 
+import React, { useState } from 'react';
 import './Login.css'; 
 import logoprojeto from '../../assets/logoprojeto.png'; 
 import {Link} from "react-router-dom";
 import {BsFilePerson} from "react-icons/bs";
 import {RiLockPasswordLine} from "react-icons/ri";
-
 import Inputs from "../../Components/Inputs/Inputs";
-const Login = () => { 
+
+const Login = () => {
+  const [username, setUsername] = useState(''); // Estado para o nome de usuário
+  const [password, setPassword] = useState(''); // Estado para a senha
+
+  const handleUsernameChange = (event) => {
+    setUsername(event.target.value);
+  };
+
+  const handlePasswordChange = (event) => {
+    setPassword(event.target.value);
+  };
+
   return (
     <div className='main_login'> 
       <div className='left_login'> 
@@ -20,13 +31,13 @@ const Login = () => {
           <h1>Login</h1> 
          <div className="Ipts_Container">
           <div className="CIpts">
-            <Inputs pHolderI="E-Mail ou CPF" TypesI="text" LabelI={"USUÁRIO"}/>
+            <Inputs pHolderI="E-Mail ou CPF" TypesI="text" LabelI={"USUÁRIO"} NamesI="username" />
             <div className="IconC">
               <BsFilePerson className="icn-ipts"/>
             </div>
           </div>
           <div className="CIpts">
-            <Inputs pHolderI="Senha" TypesI="password" LabelI={"SENHA"}/>
+            <Inputs pHolderI="Senha" TypesI="password" LabelI={"SENHA"} NamesI="password" />
             <div className="IconC">
               <RiLockPasswordLine className="icn-ipts"/>
             </div>
