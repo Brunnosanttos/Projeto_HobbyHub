@@ -282,24 +282,24 @@
         padding: 0;
         display: flex;
         width: 100%;
-        gap: 15px;
+        gap: 8px;
         justify-content: center;
         align-items: center;
-        flex-direction: row;
-        height: 14vh;
-        align-items: flex-end;
+        flex-direction: column;
+        height: 15vh;
         text-align: center;
     }
 
     .navigation h1{
         margin: 0;
         padding: 0;
+        font-size: 12pt;
     }
 
     #btn_login {
         position: relative; /* Voltar à posição relativa para o fluxo de documentos */
         text-align: right; /* Alinhar o botão à direita */
-        width: 100vw;
+        width: 10vw;
         justify-content: flex-end;
         position: fixed;
     }
