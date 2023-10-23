@@ -73,7 +73,7 @@ const Sobre = () => {
           </div>
           <section className='section_about_right'>
           <div className='descricao_dev'>
-              <p>Olá, meu nome é Kauã, sou usuário de minoxidil e uso as roupas da minha prima.................</p>
+              <p>...</p>
             <div className='btn_about'>
               <button id='btn_gmail'> <BiLogoGmail id='icon_gmail'/> GMAIL</button>
               <button id='btn_linkedin'> <RxLinkedinLogo id='icon_linkedin'/> LINKEDIN</button>
