@@ -14,6 +14,9 @@ function Menu() {
     setMenuOpen(!menuOpen);
   };
 
+  const closeMenu = () => {
+    setMenuOpen(false);
+  };
 
   return (
     <div className={`sidebar ${menuOpen ? "active" : ""}`}>
@@ -24,12 +27,12 @@ function Menu() {
       </button>
       {menuOpen && (
         <ul className='menu_ul'>
-          <li className='Inicio'><Link to="/"> <PiHouseFill className='icon_house'/> Início</Link></li>
-          <li className='Login'><Link to="Login"> <BsFillFilePersonFill className='icon_login'/>Login </Link></li>
-          <li className='Cadastro'><Link to="Cadastro"> <FaRegAddressCard className='icon_adress'/> Cadastro</Link></li>
-          <li className='Home'><Link to="Home"> <BiSolidHomeAlt2 className='icon_home'/> Home</Link></li>
-          <li className='Contatos'><Link to="Contatos"> <BsFillTelephoneFill className='icon_contact'/> Contatos</Link></li>
-          <li className='Sobre'><Link to="Sobre"> <LuLayoutList className='icon_about'/> Sobre</Link></li>
+          <li className='Inicio' onClick={closeMenu}><Link to="/"> <PiHouseFill className='icon_house'/> Início</Link></li>
+          <li className='Login' onClick={closeMenu}><Link to="Login"> <BsFillFilePersonFill className='icon_login'/>Login </Link></li>
+          <li className='Cadastro' onClick={closeMenu}><Link to="Cadastro"> <FaRegAddressCard className='icon_adress'/> Cadastro</Link></li>
+          <li className='Home' onClick={closeMenu}><Link to="Home"> <BiSolidHomeAlt2 className='icon_home'/> Home</Link></li>
+          <li className='Contatos' onClick={closeMenu}><Link to="Contatos"> <BsFillTelephoneFill className='icon_contact'/> Contatos</Link></li>
+          <li className='Sobre' onClick={closeMenu}><Link to="Sobre"> <LuLayoutList className='icon_about'/> Sobre</Link></li>
         </ul>
       )}
     </div>

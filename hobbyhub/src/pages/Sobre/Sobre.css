@@ -229,7 +229,7 @@
         justify-content: center;
         align-items: center;
         place-self: end; 
-        gap: 15px;
+        gap: 10px;
     }
     
     #btn_gmail {
@@ -238,7 +238,7 @@
         background: #717171;
         border: none;
         color: white;
-        width: 13vw;
+        width: 16vw;
         height: 3.5vh;
         font-family: Lilita One;
         font-weight: 400;
@@ -264,7 +264,7 @@
         background: #1BADFF;
         border: none;
         color: white;
-        width: 16vw;
+        width: 19vw;
         height: 3.5vh;
         font-family: Lilita One;
         font-weight: 400;
@@ -290,7 +290,7 @@
         background: #000000;
         border: none;
         color: white;
-        width: 13vw;
+        width: 16vw;
         height: 3.5vh;
         font-family: Lilita One;
         font-weight: 400;

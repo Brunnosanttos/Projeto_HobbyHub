@@ -11,6 +11,7 @@
 
 .section0 {
     height: 100vh;
+    background: linear-gradient(180deg, #500096 0%, #000 65.61%, #000 100%);
 }
 
 #btn_login {
