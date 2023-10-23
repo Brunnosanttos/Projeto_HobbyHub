@@ -132,6 +132,8 @@
     width: 100%;
     height: 100vh;
     opacity: 0.4;
+    object-fit: cover;
+    object-position: 75% 25%;
 }
 
 .section2 {
@@ -178,6 +180,8 @@
     width: 100%;
     height: 100vh;
     opacity: 0.4;
+    object-fit: cover;
+    object-position: 75% 25%;
 }
 
 .section3 {
@@ -224,6 +228,8 @@
     width: 100%;
     height: 100vh;
     opacity: 0.4;
+    object-fit: cover;
+    object-position: 75% 25%;
 }
 
 .navigation {
