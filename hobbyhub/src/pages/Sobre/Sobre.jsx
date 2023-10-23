@@ -73,7 +73,7 @@ const Sobre = () => {
           </div>
           <section className='section_about_right'>
           <div className='descricao_dev'>
-              <p>...</p>
+              <p>Prazer me chamo Kauã e desde muito jovem, demonstrava um fascínio especial por tudo o que envolvia tecnologia. Comecei quando ganhei meu primeiro computador aos 10 anos. Fascinado pela ideia de ter uma máquina capaz de fazer praticamente qualquer coisa, eu rapidamente me envolvi em um universo de possibilidades.</p>
             <div className='btn_about'>
               <button id='btn_gmail'> <BiLogoGmail id='icon_gmail'/> GMAIL</button>
               <button id='btn_linkedin'> <RxLinkedinLogo id='icon_linkedin'/> LINKEDIN</button>
