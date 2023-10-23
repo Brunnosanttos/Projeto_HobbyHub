@@ -135,6 +135,10 @@
     margin-top: -2%;
   }
 
+  .menu_ul button {
+    width: 25vw;
+  }
+
   .icon_house, .icon_adress, .icon_login, .icon_home, .icon_contact, .icon_about  {
     width: 20px;
     background-color: transparent;
