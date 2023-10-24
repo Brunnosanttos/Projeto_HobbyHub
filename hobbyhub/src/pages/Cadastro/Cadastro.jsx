@@ -3,7 +3,7 @@ import logoprojeto from '../../assets/logoprojeto.png';
 import './Cadastro.css';
 
 const Cadastro = () => {
-  //variáveis
+  
   const [email, setEmail] = useState('');
   const [nome, setNome] = useState('');
   const [nomeDeUsuario, setNomeDeUsuario] = useState('');
@@ -11,10 +11,9 @@ const Cadastro = () => {
   const [cpf, setCPF] = useState('');
   const [senha, setSenha] = useState('');
 
-  // Função para lidar com o envio do formulário
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Aqui você pode acessar os valores dos estados (email, nome, nomeDeUsuario, etc.) e fazer o que precisar com eles, como enviar para um servidor.
+    
   };
 
   return (
