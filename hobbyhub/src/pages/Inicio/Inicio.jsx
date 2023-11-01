@@ -59,7 +59,7 @@ const Inicio = () => {
 </div>
 
         <div id="btn_login">
-          <Link to="/login">
+          <a href="" target='_blank'>
             <button>
               <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 50 50" fill="none">
                 <path
@@ -73,7 +73,7 @@ const Inicio = () => {
               </svg>
               <p>Login</p>
             </button>
-          </Link>
+            </a>
         </div>
         <div className="main_content">
           <div className="container_logo">

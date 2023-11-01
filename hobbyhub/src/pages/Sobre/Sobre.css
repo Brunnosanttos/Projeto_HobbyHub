@@ -75,11 +75,13 @@
 }
 
 .container_img_left img, .container_img_right img {
-    height: 25vh;
+    height: 30vh;
     width: 15vw;
     border-radius: 50%;
     max-width: 250px;
     min-width: 240px;
+    object-fit: cover;
+    object-position: 99% 1%;
 }
 
 .section_about_left, .section_about_right {
@@ -105,30 +107,8 @@
     gap: 15px;
 }
 
-#btn_gmail {
-    display: flex;
-    flex-direction: row;
-    background: #717171;
-    border: none;
-    color: white;
-    width: 6vw;
-    height: 3.5vh;
-    font-family: Lilita One;
-    font-weight: 400;
-    border-radius: 50px;
-    justify-content: center;
-    align-items: center;
-}
-
-#btn_gmail:hover {
-    background-color: #5e5e5e;
-    cursor: pointer;
-    transition: all 0.2s ease;
-}
-
-#icon_gmail {
-    width: 20px;
-    height: 15px;
+.btn_about a {
+    text-decoration: none;
 }
 
 #btn_linkedin {
@@ -179,6 +159,7 @@
 
 #btn_github:hover {
     cursor: pointer;
+    background-color: #363636;
 }
 
 @media screen and (max-width: 768px) {
@@ -230,32 +211,6 @@
         align-items: center;
         place-self: end; 
         gap: 10px;
-    }
-    
-    #btn_gmail {
-        display: flex;
-        flex-direction: row;
-        background: #717171;
-        border: none;
-        color: white;
-        width: 16vw;
-        height: 3.5vh;
-        font-family: Lilita One;
-        font-weight: 400;
-        border-radius: 50px;
-        justify-content: center;
-        align-items: center;
-    }
-    
-    #btn_gmail:hover {
-        background-color: #5e5e5e;
-        cursor: pointer;
-        transition: all 0.2s ease;
-    }
-    
-    #icon_gmail {
-        width: 20px;
-        height: 15px;
     }
     
     #btn_linkedin {

@@ -10,7 +10,7 @@
 
 .footer_content {
     width: 100%;
-    color: white;
+    color: white !important;
     text-align: center;
 }
 
@@ -18,7 +18,7 @@
     display: flex;
     width: 100%;
     justify-content: center;
-    gap: 70px;
+    gap: 40px;
     margin-left: 0;
     padding: 0;
     margin-top: 2%;
@@ -28,28 +28,47 @@
     list-style-type: none;
 }
 
-.footer_content ul li a {
-    color: white;
-    text-decoration: none;
-}
-
-.svg_content {
+.icons_content {
     margin-top: 2%;
     display: flex;
     width: 100%;
     justify-content: center;
-    justify-content: space-evenly;
+    gap: 10px;
+}
+
+.icons_content a {
+    color: white;
+}
+
+.icon_footer {
+    display: flex;
+    width: 6vw;
+    height: 7vh;
 }
 
 .footer_content ul li button{
     font-family: Lilita One;
     background: transparent;
-    color: white;
+    color: #007bff;
     border: none;
     cursor: pointer;
     font-size: 1.9vh;
 }
 
 .footer_content ul li button:hover{
-    color: #8484ff;
+    color: #6610f2;
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 768px) {
+    .icon_footer {
+        display: flex;
+        width: 15vw;
+        min-width: 14vw;
+        height: 7vh;
+    }
+
+    .icons_content {
+        gap: 40px;
+    }
 }

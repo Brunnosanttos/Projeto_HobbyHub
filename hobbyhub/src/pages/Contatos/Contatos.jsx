@@ -17,13 +17,13 @@ const Contatos = () => {
           <AiOutlineMail id='icon_email_contact'/>
           <h1>Email</h1>
           <p>Tem alguma dúvida?</p>
-          <h3>HobbyHub@gmail.com</h3>
+          <h3>hobby.hubb1@gmail.com</h3>
         </div>
         <div id='contact_phone'>
           <FaPhoneVolume id='icon_phone_contact'/>
           <h1>Telefone</h1>
           <p>Você pode ligar das 08:00 às 17:00</p>
-          <h3>4002-8922</h3>
+          <h3>081 98995-0222</h3>
         </div>
       </section>
       <Footer/>

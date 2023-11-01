@@ -38,20 +38,11 @@ function Menu() {
               <button><PiHouseFill className='icon_house'/> Início</button>
             </Link>
           </li>
-          <li className='Login' onClick={closeMenu}>
-            <Link to="Login"> 
-              <button><BsFillFilePersonFill className='icon_login'/> Login</button>
-            </Link>
-          </li>
           <li className='Cadastro' onClick={closeMenu}>
-            <Link to="Cadastro"> 
-              <button><FaRegAddressCard className='icon_adress'/> Cadastro</button>
-            </Link>
+              <a href=""><button><FaRegAddressCard className='icon_adress'/> Cadastro</button></a>
           </li>
-          <li className='Home' onClick={closeMenu}>
-            <Link to="Home"> 
-              <button><BiSolidHomeAlt2 className='icon_home'/> Home</button>
-            </Link>
+          <li className='Home' onClick={closeMenu}> 
+              <a href=""><button><BiSolidHomeAlt2 className='icon_home'/> Home</button></a>
           </li>
           <li className='Contatos' onClick={closeMenu}>
             <Link to="Contatos"> 
