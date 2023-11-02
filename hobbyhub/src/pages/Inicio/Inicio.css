@@ -16,11 +16,10 @@
 
 #btn_login {
     display: flex;
-    position: absolute;
-    left: 10;
-    right: 0;
     z-index: 1003;
     position: fixed;
+    right: 5px;
+    top: 5px;
 }
 
 #btn_login a {
@@ -61,7 +60,8 @@
     width: 30%;
     height: 35vh;
     max-width: 300px;
-    margin-top: 5vh;
+    min-height: 235px;
+    margin-top: 7vh;
 }
 
 .main_content {
@@ -236,7 +236,7 @@
 .navigation {
     position: fixed;
     display: flex;
-    height: 5vh;
+    height: 40px;
     width: 100%;
     gap: 30px;
     z-index: 999;
