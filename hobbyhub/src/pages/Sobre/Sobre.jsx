@@ -83,8 +83,8 @@ const Sobre = () => {
             <div className='descricao_dev'>
               <p>Olá, meu nome é Antônio Paulo, e estou prestes a concluir o curso de Análise e Desenvolvimento de Sistemas. Antes de ingressar nesse curso, eu nunca tinha tido qualquer contato com a área de tecnologia. Entrei no curso de forma inesperada, mas acabei me apaixonando por esse campo. Mesmo enfrentando desafios na jornada de aprendizado ao longo do curso, não desisti, e sinto que estou apenas no início. Estou muito orgulhoso de ter participado da construção do Hobby Hub e acredito que este é apenas o começo de uma grande jornada.</p>
             <div className='btn_about'>
-              <a href="https://www.linkedin.com/in/vitor-gabriel-b42563218" target="_blank"><button id='btn_linkedin'> <RxLinkedinLogo id='icon_linkedin'/> LINKEDIN</button></a>
-              <a href="" target="_blank"><button id='btn_github'> <FaGithub id='icon_git' /> GITHUB </button></a>
+              <a href="https://www.linkedin.com/in/antonio-paulo-7420b5242/" target="_blank"><button id='btn_linkedin'> <RxLinkedinLogo id='icon_linkedin'/> LINKEDIN</button></a>
+              <a href="https://github.com/antoniopaulonunex" target="_blank"><button id='btn_github'> <FaGithub id='icon_git' /> GITHUB </button></a>
             </div>
             </div>
           </section>
