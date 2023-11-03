@@ -41,8 +41,10 @@ function Menu() {
           <li className='Cadastro' onClick={closeMenu}>
               <a href=""><button><FaRegAddressCard className='icon_adress'/> Cadastro</button></a>
           </li>
-          <li className='Home' onClick={closeMenu}> 
+          <li className='Home' onClick={closeMenu}>
+          <Link to="Home"> 
               <a href=""><button><BiSolidHomeAlt2 className='icon_home'/> Home</button></a>
+          </Link>
           </li>
           <li className='Contatos' onClick={closeMenu}>
             <Link to="Contatos"> 
