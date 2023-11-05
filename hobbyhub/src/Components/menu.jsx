@@ -39,12 +39,10 @@ function Menu() {
             </Link>
           </li>
           <li className='Cadastro' onClick={closeMenu}>
-              <a href=""><button><FaRegAddressCard className='icon_adress'/> Cadastro</button></a>
+              <a href="https://hobbyhubback-production.up.railway.app/register/"><button><FaRegAddressCard className='icon_adress'/> Cadastro</button></a>
           </li>
           <li className='Home' onClick={closeMenu}>
-          <Link to="Home"> 
-              <a href=""><button><BiSolidHomeAlt2 className='icon_home'/> Home</button></a>
-          </Link>
+              <a href="https://hobbyhubback-production.up.railway.app/"><button><BiSolidHomeAlt2 className='icon_home'/> Home</button></a>
           </li>
           <li className='Contatos' onClick={closeMenu}>
             <Link to="Contatos"> 

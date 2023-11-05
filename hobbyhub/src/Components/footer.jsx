@@ -15,7 +15,7 @@ const Footer = () => {
         <a href="https://twitter.com/HobbyHubb1" target="_blank"><BsTwitter className='icon_footer'/></a>
         </div>
         <ul>
-          <li><Link to="/Home"><button>Home</button></Link></li>
+          <li><a href="https://hobbyhubback-production.up.railway.app/"><button>Home</button></a></li>
           <li><Link to="/Contatos"><button>Contatos</button></Link></li>
           <li><Link to="/Sobre"><button>Sobre</button></Link></li>
         </ul>

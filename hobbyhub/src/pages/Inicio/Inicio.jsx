@@ -59,7 +59,7 @@ const Inicio = () => {
 </div>
 
         <div id="btn_login">
-          <a href="" target='_blank'>
+          <a href="https://hobbyhubback-production.up.railway.app/login/">
             <button>
               <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 50 50" fill="none">
                 <path
