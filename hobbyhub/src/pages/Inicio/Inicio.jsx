@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import Logo from '../../assets/Logo.png';
-import bike from '../../assets/bike.jpeg';
-import Dançando from '../../assets/Dançando.jpg';
-import Música from '../../assets/Música.jpg';
+import bike1 from '../../assets/bike1.jpg';
+import Dançando1 from '../../assets/Dançando1.jpg';
+import Música1 from '../../assets/Música1.jpg';
 import './Inicio.css';
 import Footer from '../../Components/footer';
 import { scroller } from 'react-scroll';
@@ -89,7 +89,7 @@ const Inicio = () => {
         </div>
       </section>
       <section className="section1" name="section1">
-        <img src={bike} alt="bike" />
+        <img src={bike1} alt="bike" />
         <div className="text_overp1">
           <h1>
             O que é HobbyHub
@@ -103,7 +103,7 @@ const Inicio = () => {
       </section>
       <br />
       <section className="section2" name="section2">
-                <img src={Dançando} alt="Dançando" />
+                <img src={Dançando1} alt="Dançando" />
                 <div className='text_overp2'>
                 <h1 onClick={() => scrollToSection('section2')}>O que nos torna especial?</h1>
                     <p>O HobbyHub oferece uma ampla variedade de hobbies e permite que os usuários encontrem eventos e grupos locais relacionados aos seus interesses, promovendo amizades e oportunidades de participação em atividades que amam.</p>
@@ -111,7 +111,7 @@ const Inicio = () => {
             </section>
             <br />
             <section className='section3' name='section3'>
-                <img src={Música} alt="Música" />
+                <img src={Música1} alt="Música" />
                 <div className='text_overp3'>
                 <h1 onClick={() => scrollToSection('section3')}>Como funciona?</h1>
                     <p>Explore Hobbies: Explore uma ampla gama de hobbies e encontre aqueles que mais lhe interessam.
