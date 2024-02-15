@@ -1,7 +1,6 @@
 import React from 'react'
 import './Sobre.css'
 import logoprojeto from '../../assets/logoprojeto.png';
-import {BiLogoGmail} from 'react-icons/bi'
 import {RxLinkedinLogo} from 'react-icons/rx'
 import {FaGithub} from 'react-icons/fa'
 import Footer from '../../Components/footer'
@@ -11,6 +10,7 @@ import Ytalo from '../../assets/Ytalo.jpg'
 import Paulo from '../../assets/Paulo.jpg'
 import Bruno from '../../assets/Bruno.jpg'
 import Kauã from '../../assets/Kauã.jpg'
+import Ricardo from '../../assets/Ricardo.jpg'
 
 const Sobre = () => {
   return (
@@ -105,6 +105,20 @@ const Sobre = () => {
             </div>
             </div>
           </section>
+        </div>
+        <div className='content_about_left'>
+        <section className='section_about_left'>
+            <div className='descricao_dev'>
+              <p>Me chamo Ricardo, sou desenvolvedor Full Stack com experiências nas mais variadas técnologias disponíveis no mercado, sempre focando em praticidade e qualidade na entrega de demandas.</p>
+            <div className='btn_about'>
+              <a href="https://www.linkedin.com/in/ricardo-vinicius-7599221b7/" target="_blank"><button id='btn_linkedin'> <RxLinkedinLogo id='icon_linkedin'/> LINKEDIN</button></a>
+              <a href="https://github.com/RicardoMelo2501" target="_blank"><button id='btn_github'> <FaGithub id='icon_git' /> GITHUB </button></a>
+            </div>
+            </div>
+          </section>
+          <div className='container_img_left'>
+            <img src={Ricardo} alt="Ricardo" />
+          </div>
         </div>
         <div className='footer_about'>
           <Footer/>
