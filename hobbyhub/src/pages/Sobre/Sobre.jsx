@@ -35,21 +35,7 @@ const Sobre = () => {
             <img src={vitor} alt="vitor" />
           </div>
         </div>
-        <div className='content_about_right'>
-        <div className='container_img_right'>
-          <img src={Benicio} alt="benicio" />
-          </div>
-          <section className='section_about_right'>
-          <div className='descricao_dev'>
-              <p>É com grande satisfação que me apresento como Benício Alves de Barros Júnior. Desde os meus oito anos, desenvolvi uma paixão inabalável pela área de tecnologia, especialmente nos jogos. Iniciei meu percurso no universo da programação por meio do Minecraft, utilizando a linguagem Java para desenvolver plugins.
-              Ao longo dos anos, meu entusiasmo me guiou até a faculdade de Análise e Desenvolvimento de Sistemas (ADS), onde aprofundei meus conhecimentos e habilidades. Atualmente, atuo como desenvolvedor web, e estou confiante de que esta é apenas uma etapa inicial em minha trajetória profissional. Minha dedicação à tecnologia desde tenra idade moldou minha jornada, e estou ansioso para continuar evoluindo e contribuindo para o avanço do mundo digital. E neste projeto fiquei encarregado pelo ux desing.</p>
-            <div className='btn_about'>
-              <a href="https://www.linkedin.com/in/vitor-gabriel-b42563218" target="_blank"><button id='btn_linkedin'> <RxLinkedinLogo id='icon_linkedin'/> LINKEDIN</button></a>
-              <a href="" target="_blank"><button id='btn_github'> <FaGithub id='icon_git' /> GITHUB </button></a>
-            </div>
-            </div>
-          </section>
-        </div>
+        
         <div className='content_about_left'>
         <section className='section_about_left'>
             <div className='descricao_dev'>
@@ -78,48 +64,8 @@ const Sobre = () => {
             </div>
           </section>
         </div>
-        <div className='content_about_left'>
-        <section className='section_about_left'>
-            <div className='descricao_dev'>
-              <p>Olá, meu nome é Antônio Paulo, e estou prestes a concluir o curso de Análise e Desenvolvimento de Sistemas. Antes de ingressar nesse curso, eu nunca tinha tido qualquer contato com a área de tecnologia. Entrei no curso de forma inesperada, mas acabei me apaixonando por esse campo. Mesmo enfrentando desafios na jornada de aprendizado ao longo do curso, não desisti, e sinto que estou apenas no início. Estou muito orgulhoso de ter participado da construção do Hobby Hub e acredito que este é apenas o começo de uma grande jornada.</p>
-            <div className='btn_about'>
-              <a href="https://www.linkedin.com/in/antonio-paulo-7420b5242/" target="_blank"><button id='btn_linkedin'> <RxLinkedinLogo id='icon_linkedin'/> LINKEDIN</button></a>
-              <a href="https://github.com/antoniopaulonunex" target="_blank"><button id='btn_github'> <FaGithub id='icon_git' /> GITHUB </button></a>
-            </div>
-            </div>
-          </section>
-          <div className='container_img_left'>
-            <img src={Paulo} alt="Paulo" />
-          </div>
-        </div>
-        <div className='content_about_right'>
-        <div className='container_img_right'>
-            <img src={Bruno} alt="Bruno" />
-          </div>
-          <section className='section_about_right'>
-          <div className='descricao_dev'>
-              <p>Me chamo Bruno, tenho 22 anos e sempre fui apaixonado por tecnologia, curso ADS. E neste projeto fiquei encarregado de ser o desenvolvedor front-end e back-end, porém, por ser gerente do projeto, dei suporte em todas as fases do processo do projeto.</p>
-            <div className='btn_about'>
-              <a href="https://www.linkedin.com/in/bruno-santos-69a692235/" target="_blank"><button id='btn_linkedin'> <RxLinkedinLogo id='icon_linkedin'/> LINKEDIN</button></a>
-              <a href="https://github.com/Brunnosanttos" target="_blank"><button id='btn_github'> <FaGithub id='icon_git' /> GITHUB </button></a>
-            </div>
-            </div>
-          </section>
-        </div>
-        <div className='content_about_left'>
-        <section className='section_about_left'>
-            <div className='descricao_dev'>
-              <p>Me chamo Ricardo, sou desenvolvedor Full Stack com experiências nas mais variadas técnologias disponíveis no mercado, sempre focando em praticidade e qualidade na entrega de demandas.</p>
-            <div className='btn_about'>
-              <a href="https://www.linkedin.com/in/ricardo-vinicius-7599221b7/" target="_blank"><button id='btn_linkedin'> <RxLinkedinLogo id='icon_linkedin'/> LINKEDIN</button></a>
-              <a href="https://github.com/RicardoMelo2501" target="_blank"><button id='btn_github'> <FaGithub id='icon_git' /> GITHUB </button></a>
-            </div>
-            </div>
-          </section>
-          <div className='container_img_left'>
-            <img src={Ricardo} alt="Ricardo" />
-          </div>
-        </div>
+       
+      
         <div className='footer_about'>
           <Footer/>
         </div>
