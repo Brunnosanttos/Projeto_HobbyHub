@@ -4,12 +4,8 @@ import logoprojeto from '../../assets/logoprojeto.png';
 import {RxLinkedinLogo} from 'react-icons/rx'
 import {FaGithub} from 'react-icons/fa'
 import Footer from '../../Components/footer'
-import vitor from '../../assets/vitor.jpg'
-import Benicio from '../../assets/Benicio.jpg'
 import Ytalo from '../../assets/Ytalo.jpg'
-import Paulo from '../../assets/Paulo.jpg'
 import Bruno from '../../assets/Bruno.jpg'
-import Kauã from '../../assets/Kauã.jpg'
 import Ricardo from '../../assets/Ricardo.jpg'
 
 const Sobre = () => {
@@ -21,21 +17,34 @@ const Sobre = () => {
       <div className='tittle_about'>
         <h1>Time de desenvolvedores</h1>
       </div>
-        <div className='content_about_left'>
-          <section className='section_about_left'>
-            <div className='descricao_dev'>
-              <p>Olá, meu nome é Vitor, nascido no dia 08/01/2001. Atualmente estou cursando análise e desenvolvimento de sistemas, no 5° período. Sempre fui imerso na tecnologia, fiz meu primeiro curso de informática com 12 anos e desde de então me apaixonei pela área. Com 18 anos iniciei uma graduação de gastronomia, me formei com 20 e com 21 iniciei ADS pois além de gostar da área, percebi que profissões voltadas a tecnologia era o presente e o futuro.</p>
+        <div className='content_about_right'> 
+        <div className='container_img_right'>
+            <img src={Bruno} alt="Bruno" />
+          </div>
+          <section className='section_about_right'>
+          <div className='descricao_dev'>
+              <p>Me chamo Bruno, tenho 23 anos e sempre fui apaixonado por tecnologia, curso ADS. E neste projeto fiquei encarregado de ser o desenvolvedor front-end e back-end, porém, por ser gerente do projeto, dei suporte em todas as fases do processo do projeto.</p>
             <div className='btn_about'>
-              <a href="https://www.linkedin.com/in/vitor-gabriel-b42563218" target="_blank"><button id='btn_linkedin'> <RxLinkedinLogo id='icon_linkedin'/> LINKEDIN</button></a>
-              <a href="" target="_blank"><button id='btn_github'> <FaGithub id='icon_git' /> GITHUB </button></a>
+              <a href="https://www.linkedin.com/in/bruno-santos-69a692235/" target="_blank"><button id='btn_linkedin'> <RxLinkedinLogo id='icon_linkedin'/> LINKEDIN</button></a>
+              <a href="https://github.com/Brunnosanttos" target="_blank"><button id='btn_github'> <FaGithub id='icon_git' /> GITHUB </button></a>
+            </div>
+            </div>
+          </section> 
+        </div> 
+        <div className='content_about_left'>
+        <section className='section_about_left'>
+            <div className='descricao_dev'>
+              <p>Me chamo Ricardo, sou desenvolvedor Full Stack com experiências nas mais variadas técnologias disponíveis no mercado, sempre focando em praticidade e qualidade na entrega de demandas.</p>
+            <div className='btn_about'>
+              <a href="https://www.linkedin.com/in/ricardo-vinicius-7599221b7/" target="_blank"><button id='btn_linkedin'> <RxLinkedinLogo id='icon_linkedin'/> LINKEDIN</button></a>
+              <a href="https://github.com/RicardoMelo2501" target="_blank"><button id='btn_github'> <FaGithub id='icon_git' /> GITHUB </button></a>
             </div>
             </div>
           </section>
           <div className='container_img_left'>
-            <img src={vitor} alt="vitor" />
+            <img src={Ricardo} alt="Ricardo" />
           </div>
         </div>
-        
         <div className='content_about_left'>
         <section className='section_about_left'>
             <div className='descricao_dev'>
@@ -50,22 +59,6 @@ const Sobre = () => {
             <img src={Ytalo} alt="Ytalo" />
           </div>
         </div>
-        <div className='content_about_right'>
-        <div className='container_img_right'>
-            <img src={Kauã} alt="Kauã" />
-          </div>
-          <section className='section_about_right'>
-          <div className='descricao_dev'>
-              <p>Prazer me chamo Kauã e desde muito jovem, demonstrava um fascínio especial por tudo o que envolvia tecnologia. Comecei quando ganhei meu primeiro computador aos 10 anos. Fascinado pela ideia de ter uma máquina capaz de fazer praticamente qualquer coisa, eu rapidamente me envolvi em um universo de possibilidades.</p>
-            <div className='btn_about'>
-              <a href="https://www.linkedin.com/in/kau%C3%A3-jos%C3%A9-242677235?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank"><button id='btn_linkedin'> <RxLinkedinLogo id='icon_linkedin'/> LINKEDIN</button></a>
-              <a href="https://github.com/kjdap" target="_blank"><button id='btn_github'> <FaGithub id='icon_git' /> GITHUB </button></a>
-            </div>
-            </div>
-          </section>
-        </div>
-       
-      
         <div className='footer_about'>
           <Footer/>
         </div>
